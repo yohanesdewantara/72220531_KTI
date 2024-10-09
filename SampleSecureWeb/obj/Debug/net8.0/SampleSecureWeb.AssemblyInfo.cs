@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SampleSecureWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99a86005a099c04fb6ef765e5c1f4193feb2804b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fc0caeeac4ba26a8e3c2e9b3a035e9f819d1ae3")]
 [assembly: System.Reflection.AssemblyProductAttribute("SampleSecureWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SampleSecureWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

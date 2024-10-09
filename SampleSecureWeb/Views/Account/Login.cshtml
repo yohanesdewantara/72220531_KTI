@@ -11,18 +11,18 @@
                 @if (ViewBag.Massage != null)
                 {
                     <div class="alert alert-success">
-                        @ViewBag,Massage
+                        @ViewBag.Message
                     </div>
                 }
                 <form asp-action="Login">
-                    <input type ="hiden" asp-for="ReturnUrl" />
+                    <input type ="hidden" asp-for="ReturnUrl" />
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <div class="form-group">
                         <input asp-for="Username" class="form-control form-control-user" placeholder="Username">
                         <span asp-validation-for="Username" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <input asp-for="Password" class="form-control form-control-user" placeholder="Password">
+                        <input minlength=12 asp-for="Password" class="form-control form-control-user" placeholder="Password">
                         <span asp-validation-for="Password" class="text-danger"></span>
                     </div>
                     <div class="form-group">
