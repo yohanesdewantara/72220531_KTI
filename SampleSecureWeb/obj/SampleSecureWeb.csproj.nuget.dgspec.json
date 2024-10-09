@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\KTI\\SampleSecureWeb\\SampleSecureWeb.csproj": {}
+    "C:\\KTI\\72220531_KTI\\SampleSecureWeb\\SampleSecureWeb.csproj": {}
   },
   "projects": {
-    "C:\\KTI\\SampleSecureWeb\\SampleSecureWeb.csproj": {
+    "C:\\KTI\\72220531_KTI\\SampleSecureWeb\\SampleSecureWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\KTI\\SampleSecureWeb\\SampleSecureWeb.csproj",
+        "projectUniqueName": "C:\\KTI\\72220531_KTI\\SampleSecureWeb\\SampleSecureWeb.csproj",
         "projectName": "SampleSecureWeb",
-        "projectPath": "C:\\KTI\\SampleSecureWeb\\SampleSecureWeb.csproj",
+        "projectPath": "C:\\KTI\\72220531_KTI\\SampleSecureWeb\\SampleSecureWeb.csproj",
         "packagesPath": "C:\\Users\\Msi Modern 14\\.nuget\\packages\\",
-        "outputPath": "C:\\KTI\\SampleSecureWeb\\obj\\",
+        "outputPath": "C:\\KTI\\72220531_KTI\\SampleSecureWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Msi Modern 14\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
